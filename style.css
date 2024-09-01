@@ -1,0 +1,47 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tela {
+    /* Dimensões da Tela captuarada */
+    width: 1920px;
+    height: 1080px;
+
+    border: 2px solid red;
+}
+
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 1500px;
+    margin-top: 100px;
+
+    width: 141px;
+
+    color: #333;
+    /* padding: 10px; */
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    /* border: 2px solid blue; */
+}
+
+.clock-label {
+    font-size: 20px;
+    padding: 5px;
+    font-weight: 900;
+
+}
+
+.ao-vivo {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 6px;
+}
